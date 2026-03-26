@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: system-ui, - sans-serif;
+            line-height: 1.6;
+        }
+
+        header{
+            background: #10fe5b;
+            color: rgb(247, 33, 33);
+            padding: 1rem 2rem;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+        nav a{
+            color: rgb(76, 10, 182);
+            text-decoration: none;
+        }
+        .hero{
+            padding: 3rem 3rem;
+            background: wheat;
+            text-align: center;
+        }      
+        main{
+            padding: 2rem;
+            gap: 2rem;
+        }
+        section{
+            margin-bottom: 2rem;
+        }
+        article{
+            background: whitesmoke;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1>mysite</h1>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2 id="hero-title">welcome everywone</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quibusdam iure maxime nulla illo deleniti natus? Suscipit nesciunt quas dolores dignissimos fugiat? Quo animi aperiam inventore enim eos laudantium non.</p>
+
+
+        </div>
+
+    </section>
+    <main class="countainer">
+        <div>
+            <section>
+                <h2 id="sevices title">our services</h2>
+                <article>
+                    <h3>web devolopment</h3>
+                    <p>we build fast and scalable web application</p>
+                </article>
+                <article>
+                   <h3>Ui/ux desing</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quis voluptatem expedita quisquam dolorum itaque nam reprehenderit. Mollitia minima impedit fuga consequatur nulla quae, qui laboriosam saepe, eligendi eaque a.</p> 
+                </article>
+            </section>
+            <section>
+                <h2 id="BLOG-TITLE">Letest Blog</h2>
+                <article>
+                    <header>
+                        <h3>WHY SEMANTIC HTML MATTERS</h3>
+                        <P><time datetime="2026-03-25"></time></P>
+                    </header>
+                    <p>semantic html improve</p>
+                </article>
+                <article>
+                    <header>
+                        <h3>ACCESIBLITY BEST PRACTICES</h3>
+                    </header>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum tempora nobis? Molestias nihil suscipit omnis eaque voluptate dignissimos cumque rerum assumenda distinctio facere fuga repudiandae amet odit, nisi expedita.</P>
+                </article>
+            </section>
+
+        </div>
+        <aside>
+            <h3 id="SIDEBAR-TITLE">quick lings</h3>
+            <nav>
+                <ul>
+                    <li><a href="#">HTML GUIDE</a></li>
+                    <li><a href="#">CSS TIPS</a></li>
+                    <li><a href="#">JAVASCRIPT</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h3>news letter</h3>
+                <form ></form>
+            </section>
+        </aside>
+    </main>
+</body>
+</html>

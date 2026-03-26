@@ -1,0 +1,17 @@
+.h2 {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: greenyellow;
+    text-align: center;
+    font-weight: 110;
+}
+.auth-container {
+    line-height: 1.5;
+    border-width: 10px;
+    border-style:solid;
+    border-color: black;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 200px;
+   width: 400px;
+}
