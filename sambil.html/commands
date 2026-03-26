@@ -1,0 +1,11 @@
+
+
+
+git init - intialization
+git add = filename.extension | add .
+git commit -m "commit message" => git commit -m "login feature completed"
+git status - changes detect
+git diff - changes
+
+git branch -M main
+git remote add origin "repo link"
